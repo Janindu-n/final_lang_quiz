@@ -5,7 +5,7 @@ function Quiz(questions) {
   this.message = ["Correct", "Wrong"];
   this.askedQuestionIndexes = [];
   this.currentQuestionIndex = Math.floor(Math.random() * this.questions.length);
-  this.totalQuestionsCountPerSection = 2;
+  this.totalQuestionsCountPerSection = 8;
   this.questionsAsked = [];
   this.currentSectionIndex = 0;
   this.currentSectionMessage = [
